@@ -14,7 +14,7 @@ myList = re.findall(r'.+\s+Capital:.+\s+.+\s+.+\.\d', values)
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="@meN9199",
+  password="password",
   database ="mydatabase"
 )
 mycursor = mydb.cursor()
